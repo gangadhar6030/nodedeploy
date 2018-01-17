@@ -1,0 +1,8 @@
+Setup a mysql database named test.
+Create a table named 'users' with columns:
+  id(int, auto increament, PK),
+  name(varchar), 
+  email (varchar), password (varchar), 
+  created_at(DateTime), updated_at(DateTime)
+Using Postman register and authenticate passing the parameters on the URL: 
+  http://localhost:8012/api/register and http://localhost:8012/api/authenticate
